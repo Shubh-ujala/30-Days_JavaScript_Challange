@@ -1,1 +1,8 @@
 # 30-Days_JavaScript_Challange
+
+
+
+
+| Days | Link|
+| ------------- | ------------- |
+| Day- 01 | [Datatype_and_Variables](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_01_Variables_and_Datatypes)  |
