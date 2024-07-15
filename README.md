@@ -1,6 +1,6 @@
 # 30-Days_JavaScript_Challange🚀🍵
 ## **Instructor - Hitesh choudhary sir**
-- **website**- [Chaiaurcode](https://chaicode.com/)
+- **website**- [Chaiaurcode☕](https://chaicode.com/)
 
 
 
