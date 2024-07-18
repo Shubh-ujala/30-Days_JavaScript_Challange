@@ -10,6 +10,7 @@
 | Day- 03 | [Control Structures🚀](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_03_Control%20Structures)|
 | Day- 04 | [Loops 🍵](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_04_Loops)|
 | Day- 05 | [Functions☕](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_05_functions)|
+| Day- 06 | [Arrays🫡](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_06_Arrays)|
 
 
 
