@@ -14,6 +14,7 @@
 | Day- 07 | [Objects🧑‍🚀](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_07_Objects)|
 | Day- 08 | [ES6👾](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_08_ES6%2BFeatures)|
 | Day- 09 | [DOM Manipulation👽](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_09_DOM%20Manipulation)|
+| Day- 10 | [Event Handling🤖](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_10_Event_Handling)|
 
 
 
