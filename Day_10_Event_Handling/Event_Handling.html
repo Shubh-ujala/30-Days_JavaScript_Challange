@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        .button,#submit,#add  {
+            background-color: #04AA6D; /* Green */
+            border: none;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+         }
+
+        #container{
+            width:500px;
+            height: 333.33px;
+            
+        }
+        img{
+            width: 100%;
+        }
+        .box{
+            border: solid 2px black;
+            height: 300px;
+            width: 500px;
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <!-- Task 1: Add a click event listener to a button that changes the text content of a paragraph -->
+     <p id="para" style="font-size: larger;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique optio delectus doloribus fugiat voluptates aliquid nemo est, nam velit exercitationem iusto perferendis at reprehenderit porro odio. Autem exercitationem assumenda quas.</p>
+    <button class="button">Click Me!</button>
+    
+    <hr>
+    <!-- Task 2: Add a double-click event listener to an image that toggles its visibility. -->
+    <div id="container">
+        <img src="image.jpg" alt="image">
+    </div>
+
+    <hr>
+    <!-- Task 3: Add a mouseover event listener to an element that changes its background color. -->
+    <!-- Task 4: Add a mouseout event listener to an element that resets its background color. -->
+    <div class="box"></div>
+
+    <hr>
+    <!-- Task 5: Add a keydown event listener to an input field that logs the key pressed to the console. -->
+    <input type="text" placeholder="Enter any key">
+    
+    <!-- Task 6: Add a keyup event listener to an input field that displays the current value in a paragraph. -->
+
+    <input type="text"  id="parainput">
+    <p id="input" style="display: none;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores vero dolore, quisquam doloribus dolorum assumenda error at quis neque corrupti laudantium voluptas iure recusandae sapiente vel sint exercitationem eaque.
+        Libero ipsum ad ullam! Repudiandae omnis nam, perspiciatis ea in laudantium officia nihil illo temporibus iusto, accusantium obcaecati aliquam corrupti optio vitae blanditiis tenetur! Libero quia suscipit delectus officia nemo.
+    </p>
+    <hr>
+
+    <!-- Task 7: Add a submit event listener to a form that prevents the default submission and logs the form data to the console. -->
+    <div class="inputform" >
+        <h1 style="font-size: larger;">Input form </h1>
+        <form style="display: flex; flex-direction: column; width: 37%; row-gap: 5px;">
+        <input type="text"  id="text">
+        <input type="password"  id="password">
+        <button id="submit">submit</button>
+    </form>
+     </div>
+    
+    <hr>
+    <!-- Task 8: Add a change event listener to a select dropdown that displays the selected value in a paragraph. -->
+
+    <select  id="dropdown">
+        <option value="option 1">option 1</option>
+        <option value="option 2">option 2</option>
+        <option value="option 3">option 3</option>
+        <option value="option 4">option 4</option>
+        <option value="option 5">option 5</option>
+    </select>
+
+    <p id="selected" style="font-size: larger;">Selected value will show here!</p>
+    <hr>
+    <!-- Task 9: Add a click event listener to a list that logs the text content of the clicked list item using event delegation. -->
+    <h1 style="font-size: larger;">List</h1>
+    <button id="add">Add element</button>
+    <ul id = "list" style="font-size: larger; cursor: pointer;">
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+    </ul>
+    <!-- Task 10: Add an event listener to a parent element that listens for events from dynamically added child elements. -->
+
+
+
+    <script>
+        //task1 
+        const p = document.querySelector('#para');
+        const btn = document.querySelector(".button");
+        btn.addEventListener('click',()=>{
+            p.innerHTML = "Button clicked!"
+        })
+
+        //task2
+        const img = document.querySelector('img');
+        const div = document.querySelector('#container');
+        img.addEventListener('dblclick',()=>{
+            img.style.opacity ="0";
+            div.innerHTML = "Image gone!"
+            div.style.fontSize = "larger"
+        })
+
+        //task 3 
+        const mydiv = document.querySelector('.box');
+        mydiv.addEventListener('mouseover',()=>{
+            mydiv.style.backgroundColor = "black";
+            mydiv.style.border = "solid 2px yellow";
+        })
+
+        //task 4
+        mydiv.addEventListener('mouseout',()=>{
+            mydiv.style.backgroundColor = 'crimson';
+            mydiv.style.border = 'solid 2px black';
+        })
+
+        //task 5
+        const input = document.querySelector('input');
+        input.addEventListener('keydown',(e)=>{
+            console.log(e.key);
+        })
+
+        //task 6
+        const input1 = document.querySelector('#parainput');
+        const paragraph = document.querySelector('#input');
+        input1.addEventListener('keyup',(e)=>{
+            console.log(paragraph.innerHTML);
+        })
+
+        //task 7
+        const submit = document.querySelector('#submit');
+        submit.addEventListener('click',(e)=>{
+                e.preventDefault();
+        })
+
+        //task 8
+        const dropdown = document.querySelector('#dropdown');
+        const value = document.querySelector("#selected");
+        dropdown.addEventListener('change',()=>{
+            value.innerHTML = `Value selected is ${dropdown.value}`
+        })
+
+        //task 9 
+        const list = document.querySelector('#list');
+        list.addEventListener('click',(e)=>{
+            console.log(e.target.innerHTML);
+        })
+
+        //task 10 
+        const addbtn = document.querySelector('#add');
+        addbtn.addEventListener('click',()=>{
+            const requirement = prompt('Add next day to the list');
+            const ele = document.createElement('li');
+            ele.innerHTML = requirement;
+            list.appendChild(ele);
+        })
+    </script>
+</body>
+</html>
