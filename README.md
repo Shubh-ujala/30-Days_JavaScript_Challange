@@ -15,6 +15,7 @@
 | Day- 08 | [ES6👾](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_08_ES6%2BFeatures)|
 | Day- 09 | [DOM Manipulation👽](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_09_DOM%20Manipulation)|
 | Day- 10 | [Event Handling🤖](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_10_Event_Handling)|
+| Day- 11 | [Promises_and_Async/Await 💀](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_11_Promises_and_async_await)|
 
 
 
