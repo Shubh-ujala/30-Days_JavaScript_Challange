@@ -1,5 +1,5 @@
 # 30-Days_JavaScript_Challange🚀🍵
-## **Instructor - Hitesh choudhary sir**
+## **Instructor - Hitesh choudhary sir🙇‍♂️**
 - **website**- [Chaiaurcode☕](https://chaicode.com/)
 - **Connect with me** - [LinkedIn😊](https://www.linkedin.com/in/shubhujala/)
 
