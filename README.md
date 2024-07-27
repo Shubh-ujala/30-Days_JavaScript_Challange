@@ -19,7 +19,7 @@
 | Day- 12 | [Error_Handling🙇‍♂️](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_12_Error_Handling)|
 | Day- 13 | [Modules👺](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_13_Modules)|
 | Day- 14 | [Classes🦝](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_14_Classes)|
-| Day- 14 | [Clousers🧠](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_15_Closures)|
+| Day- 15 | [Clousers🧠](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_15_Closures)|
 
 
 
