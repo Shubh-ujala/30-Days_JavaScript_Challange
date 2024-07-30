@@ -22,7 +22,7 @@
 | Day- 15 | [Clousers🧠](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_15_Closures)|
 | Day- 16 | [Recursion🔁](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_16_Recursion)|
 | Day- 17 | [Data Structures🐏](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_17_Data_Structures)|
-| Day- 18 | [Data Structures🐏](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_17_Data_Structures)|
+| Day- 18 | [Algorithms🕸️](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_18_Algorithms)|
 
 
 
