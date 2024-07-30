@@ -27,7 +27,7 @@
 - String Algorithm Script: Write a script that counts character occurrences and finds the longest substring without repeating characters.
 - Array Algorithm Script: Create a script that rotates arrays and merges sorted arrays.
 - Dynamic Programming Script: Write a script that solves the Fibonacci sequence and knapsack problem using dynamic programming (optional).
-Achievement:🏆
+## Achievement:🏆
 By the end of these activities, students will:
 
 - Implement and understand common sorting algorithms.
