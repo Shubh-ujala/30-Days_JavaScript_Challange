@@ -23,6 +23,7 @@
 | Day- 16 | [Recursion🔁](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_16_Recursion)|
 | Day- 17 | [Data Structures🐏](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_17_Data_Structures)|
 | Day- 18 | [Algorithms🕸️](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_18_Algorithms)|
+| Day- 19 | [Regular_Expressions🕵️](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_19_Regular_expression)|
 
 
 
