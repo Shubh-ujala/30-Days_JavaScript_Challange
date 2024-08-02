@@ -26,6 +26,7 @@
 | Day- 19 | [Regular_Expressions🕵️](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_19_Regular_expression)|
 | Day- 20 | [Local_and_Session_Storage🏪](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_20_LocalStorage%20and%20SessionStorage)|
 | Day- 21 | [Leetcode_easy🧠](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_20_LocalStorage%20and%20SessionStorage)|
+| Day- 22 | [Leetcode_medium💀](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_22_Leetcode_Medium)|
 
 
 
