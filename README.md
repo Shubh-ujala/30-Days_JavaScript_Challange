@@ -28,6 +28,8 @@
 | Day- 21 | [Leetcode_easy🧠](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_20_LocalStorage%20and%20SessionStorage)|
 | Day- 22 | [Leetcode_medium💀](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_22_Leetcode_Medium)|
 | Day- 23 | [Leetcode_Hard☠️](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_23_LeetCode_hard)|
+| -  ⭐ | PROJECTS |
+| Day- 24 | [WeatherApp 🌅](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_24_Project_01)|
 
 
 
