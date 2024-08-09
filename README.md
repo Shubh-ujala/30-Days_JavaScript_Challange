@@ -33,6 +33,7 @@
 | Day- 25 | [Movie search App 🔥](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_24_Project_01)|
 | Day- 26| [Soon don't click ](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_24_Project_01)|
 | Day- 27| [Soon don't click ](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_24_Project_01)|
+| Day- 28| [Soon don't click ](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_24_Project_01)|
 
 
 
