@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div id="main">
+        <h1>Search Your Movie</h1>
+        <div id="movie-search">
+            <div id="input">
+                <input type="text" placeholder="Enter Movie Name" id="text">
+            </div>
+            <div id="search-icon">
+                <img src="search.png" alt="search-icon" id="icon">
+            </div>
+        </div>
+    </div>
+    <!-- after clicking search icon -->
+    <div class="card">
+        <img src="https://m.media-amazon.com/images/M/MV5BYWVlMjVhZWYtNWViNC00ODFkLTk1MmItYjU1MDY5ZDdhMTU3XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_SX300.jpg" alt="Movie Poster" class="card-image">
+        <div class="card-content">
+            <div class="card-details">
+                <h2 class="card-title" id="movie-title">Movie Title</h2>
+                <p class="card-info" id="movie-info">-</p>
+            </div>
+            <div class="card-details">
+                <h2 class="card-year" id="movie-year">Release Year</h2>
+                <p class="card-info" id="additional-info">-</p>
+            </div>
+            <!-- after more info clicked! -->
+            <div class="aftermoreInfo">
+                <div class="card-details">
+                    <h2 class="card-plot" id="movie-plot">Plot</h2>
+                    <p class="card-info" id="plot-info">-</p>
+                </div>
+                <div class="card-details">
+                    <h2 class="card-director" id="movie-director">Director</h2>
+                    <p class="card-info" id="director-info">-</p>
+                </div>
+                <div class="card-details">
+                    <h2 class="card-actors" id="movie-actors">Actors</h2>
+                    <p class="card-info" id="actors-info">-</p>
+                </div>
+            </div>
+            <button class="more-info-button">More Info</button>
+        </div>
+    </div>
+    <script>
+        const APIKey = "53408cba";
+        var input = document.querySelector('#text');
+        const API = `https://www.omdbapi.com/?t=`
+        const maindiv = document.querySelector('#main');
+        const carddiv = document.querySelector('.card');
+        const afterdiv = document.querySelector('.aftermoreInfo');
+        const title = document.querySelector('#movie-info');
+        const year = document.querySelector('#additional-info');
+        const plot = document.querySelector('#plot-info');
+        const director = document.querySelector('#director-info');
+        const actor = document.querySelector('#actors-info');
+        const cardImage = document.querySelector('.card-image');
+        //API CALL SUCCESS !
+        async function SearchMovie(name) {
+            try {
+                if(!name.trim()){
+                    alert("Please enter a movie name.");
+                    return;
+                }
+                const response = await fetch(API + name + `&apikey=${APIKey}`);
+                var data = await response.json();
+                if (data.Response === "False") {
+                alert("Movie not found. Please check the name and try again.");
+                return;
+            }
+                console.log(data);
+                title.innerHTML = data.Title;
+                year.innerHTML = data.Year;
+                plot.innerHTML = data.Plot;
+                director.innerHTML = data.Director;
+                actor.innerHTML = data.Actors;
+                console.log(cardImage.src=`${data.Poster}`);
+            
+                maindiv.style.display = "None";
+                carddiv.style.display = "flex";
+            } catch (error) {
+                console.error("Error fetching movie data:", error);
+                alert("An error occurred while fetching movie data. Please try again later.");
+            }
+            
+            
+        }
+        const moreinfobtn = document.querySelector('.more-info-button');
+        const searchbtn = document.querySelector('#icon');
+        searchbtn.addEventListener('click',()=>{
+        
+                SearchMovie(input.value);
+            
+        })
+
+        moreinfobtn.addEventListener('click',()=>{
+            afterdiv.classList.add('show');
+            
+            moreinfobtn.style.display = 'None';
+        })
+        
+    </script>
+</body>
+</html>
