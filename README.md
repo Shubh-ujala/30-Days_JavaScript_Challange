@@ -35,6 +35,7 @@
 | Day- 27| [Task_Management_App✅ ](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_27_Task_management_App)|
 | Day- 28| [E-Commerce Website📧](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_28_Project_04)|
 | Day- 29| [Social Media Dashboard📺](https://github.com/Shubh-ujala/30-Days_JavaScript_Challange/tree/main/Day_29_Project_06)|
+| Day- 30|[soon](coming.c)|
 
 
 
