@@ -9,7 +9,7 @@
 - Task 3: Add a form to the HTML structure with fields for entering task details (e.g., title, description, due date). Style the form using CSS.
 - Task 4: Write a script to handle form submission, creating a new task object and adding it to an array of tasks. Display the new task in the task list.
 ## Activity 3: Reading and Displaying Tasks
-
+ 
 - Task 5: Write a function to iterate over the array of tasks and display each task in the task list. Include task details like title, description, and due date.
 - Task 6: Style the task list using CSS to make it visually appealing.
 ## Activity 4: Updating Tasks
